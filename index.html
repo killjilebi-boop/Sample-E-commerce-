@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuzmii | Luxury Watch Store</title>
+    <meta name="description" content="Yuzmii - Premium Watches from Daraz & AliExpress. Explore our luxury collection.">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container flex-between">
+            <div class="top-info">
+                <span><i class="fas fa-phone"></i> +94 757457453</span>
+                <span><i class="fas fa-envelope"></i> support@yuzmii.com</span>
+            </div>
+            <div class="top-links">
+                <a href="#">Track Order</a>
+                <a href="#">Store Locator</a>
+                <div class="language-picker">
+                    <span>English <i class="fas fa-chevron-down"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="main-header sticky-header">
+        <div class="container nav-wrapper">
+            <div class="logo">
+                <a href="index.html">YUZMII<span>.</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="has-dropdown">
+                        <a href="#home" class="active">Home <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Watch Store Demo</a></li>
+                            <li><a href="#">Creative Business Demo</a></li>
+                            <li><a href="#">Dark Concept</a></li>
+                            <li><a href="#">Minimalist Shop</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-mega">
+                        <a href="#shop">Luxury Shop <i class="fas fa-chevron-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="mega-column" data-category="mens">
+                                <h4>Men's Watches</h4>
+                                <ul>
+                                    <li><a href="#">Chronograph</a></li>
+                                    <li><a href="#">Automatic</a></li>
+                                    <li><a href="#">Luxury Gold</a></li>
+                                    <li><a href="#">Sports Edition</a></li>
+                                    <li><a href="#">Smart Watches</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column" data-category="womens">
+                                <h4>Women's Collection</h4>
+                                <ul>
+                                    <li><a href="#">Elegant Series</a></li>
+                                    <li><a href="#">Diamond Encrusted</a></li>
+                                    <li><a href="#">Rose Gold</a></li>
+                                    <li><a href="#">Leather Straps</a></li>
+                                    <li><a href="#">Slim Collection</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column" data-category="accessories">
+                                <h4>Accessories</h4>
+                                <ul>
+                                    <li><a href="#">Watch Boxes</a></li>
+                                    <li><a href="#">Premium Straps</a></li>
+                                    <li><a href="#">Cleaning Kits</a></li>
+                                    <li><a href="#">Winders</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-column promo-col">
+                                <div class="promo-box">
+                                    <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=300&q=80" alt="Promo">
+                                    <div class="promo-text">
+                                        <h5>New Season</h5>
+                                        <p>30% OFF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#services">Business Services</a></li>
+                    <li><a href="#portfolio">Creative Works</a></li>
+                    <li><a href="#blog">Journal</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="theme-switcher" id="themeSwitcher">
+                    <i class="fas fa-moon" id="moonIcon"></i>
+                    <i class="fas fa-sun" id="sunIcon" style="display:none;"></i>
+                </div>
+                <div class="search-trigger"><i class="fas fa-search"></i></div>
+                <div class="cart-trigger">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge">3</span>
+                </div>
+                <div class="mobile-toggle" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section id="home" class="hero-slider">
+        <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1508685096489-7aac291bd5b3?auto=format&fit=crop&w=1920&q=80');">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="sub-title">Excellence in Every Second</span>
+                    <h1 class="animate-up">The Art of <br> Luxury <span>Timekeeping</span></h1>
+                    <p class="animate-up delay-1">Discover Yuzmii’s premium collection from Daraz & AliExpress. Hand-crafted watches for modern visionaries.</p>
+                    <div class="hero-btns animate-up delay-2">
+                        <a href="#shop" class="btn btn-primary">Shop Now</a>
+                        <a href="#" class="btn btn-outline">View Lookbook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section py-100">
+        <div class="container">
+            <div class="grid-3">
+                <div class="cat-card" data-category="mens">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Men">
+                    <div class="cat-content">
+                        <h3>Chronographs</h3>
+                        <a href="#" class="link-btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="cat-card" data-category="business">
+                    <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80" alt="Business">
+                    <div class="cat-content">
+                        <h3>Executive</h3>
+                        <a href="#" class="link-btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="cat-card" data-category="womens">
+                    <img src="https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&w=600&q=80" alt="Ladies">
+                    <div class="cat-content">
+                        <h3>Designer Wear</h3>
+                        <a href="#" class="link-btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Products -->
+    <section id="shop" class="shop-products py-100">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="title">Featured Collection</h2>
+                <div class="filter-tabs">
+                    <button class="active" data-filter="all">All</button>
+                    <button data-filter="popular">Popular</button>
+                    <button data-filter="new">New Arrivals</button>
+                    <button data-filter="sale">Special Sale</button>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Sample Product Item -->
+                <div class="product-item popular" data-origin-link="https://daraz.lk/sample-product">
+                    <div class="p-thumb">
+                        <span class="p-tag">New</span>
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=500&q=80" alt="Product">
+                        <div class="p-actions">
+                            <button title="Quick View"><i class="fas fa-eye"></i></button>
+                            <button title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button title="Compare"><i class="fas fa-sync"></i></button>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="https://daraz.lk/sample-product" target="_blank" class="btn-buy-origin">Buy on Daraz</a>
+                    </div>
+                    <div class="p-info">
+                        <h3>Yuzmii Royal Black</h3>
+                        <p class="price">$420.00</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more products here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services, Portfolio, Pricing, Contact sections remain same as original HTML -->
+    <!-- You can reuse your sections from your previous HTML here -->
+    
+</body>
+      </html>
